@@ -1,0 +1,27 @@
+body {
+    background-color: plum;
+}
+
+.not-found-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .not-found-heading {
+    color: #dc3545;
+    font-size: 48px;
+  }
+  
+  .not-found-message {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  
+  .home-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
