@@ -27,7 +27,7 @@ Welcome to the Web Messaging application. This application is built majorly usin
 ## Running the Application
 
 1. **Clone the Repository:**
-   - Clone this repository to your local machine using `git clone https://github.com/martin888maina/your-repository.git`.
+   - Clone this repository to your local machine using `git clone https://github.com/martin888maina/CS-Messaging-app-Client.git`.
 
 2. **Navigate to the Project Directory:**
    - Open the cloned repository in Visual Studio Code.
@@ -111,7 +111,25 @@ Welcome to the Web Messaging application. This application is built majorly usin
 - **React Bootstrap**: Bootstrap components built with React.
 - **React Router DOM**: DOM bindings for React Router, enabling dynamic routing.
 - **React Toastify**: Notification library for React applications.
-- **Socket.IO Client**: WebSocket library for real-time event-based communication.   
+- **Socket.IO Client**: WebSocket library for real-time event-based communication.
+
+
+## Additional Implemented Features
+
+- **Real-time Messaging Updates**:
+- Implemented real-time updates using websockets to enhance interactivity in both the agent and customer-facing UIs. 
+- New incoming messages now appear in real-time, providing a seamless communication experience.
+
+- **Enhanced customer context**:
+- Explored methods to surface additional customer information, such as external profiles or internal data, within the UI. 
+- This contextual information assists agents in understanding customer needs better and providing more personalized support.
+- **How it was achieved**:
+- Messages sent from a single user are now highlighted and grouped together within the message lists on the message dashboard. 
+- This enhancement improves agent visibility, allowing them to easily track and manage conversations with individual customers.
+
+- **Search Fuctionality**:
+- Successfully implemented search functionality allowing agents to efficiently search through incoming messages and customer data.
+- This feature empowers agents to quickly locate relevant information and respond effectively to customer inquiries.
 
  
 ## Known Issues
